@@ -16,7 +16,7 @@ img{
     top: 0;
     z-index: -100;
     -webkit-app-region: drag;
-    opacity: 0.4;
+    opacity: 1;
 }
 
 #title{
@@ -58,7 +58,7 @@ img{
 
 #status{
     position: absolute;
-    bottom: 50px;
+    bottom: 15px;
     left: 100px;
 }
 
@@ -89,8 +89,8 @@ img{
     color: #202020;
     width: 100px;
     position: absolute;
-    bottom: 25%;
-    left: 20%;
+    bottom: 15px;
+    left: 290px;
     text-align: center;
 }
 

@@ -55,8 +55,8 @@ function install() {
     if (folder) folder = folder[0]
     else return
 
-    let abs_path = path.join(path.resolve(folder), "rhinoGS")
-    let src = path.join(__dirname, 'plugins', 'AGS.zip');
+    let abs_path = path.join(path.resolve(folder), "IGS")
+    let src = path.join(__dirname, 'plugins', 'IGS.zip');
 
     if (abs_path.includes(" ")){
         alert("The installation path cannot contain spaces, please choose another location")
@@ -98,7 +98,7 @@ function install() {
 
     extract.on('end', () => {
         status.text("Installing to Rhino...")
-        cmd(abs_path+"/env/python.exe", ["-m", "compas_rv2.install", "--rhino_version", rhino_version])
+        cmd(abs_path+"/env/python.exe", ["-m", "compas_igs.install", "--rhino_version", rhino_version])
     });
 
 
