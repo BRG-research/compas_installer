@@ -18,7 +18,7 @@
   },
   "build":{
     "asar":false,
-    "productName": "rhinoGS",
+    "productName": "IGS",
     "copyright": "Copyright © 2009-2020 Block Research Group, ETH Zurich, Switzerland."
   }
 }
