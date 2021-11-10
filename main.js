@@ -8,9 +8,9 @@ function createWindow () {
     height: 450,
     frame: false,
     webPreferences: {
-      nodeIntegration: true
-    },
-    icon: "src/icon.png"
+      nodeIntegration: true,
+      enableRemoteModule: true
+    }
   })
 
   
