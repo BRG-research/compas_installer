@@ -98,7 +98,7 @@ function install() {
 
     extract.on('end', () => {
         status.text("Installing to Rhino...")
-        cmd(abs_path+"/env/python.exe", ["-m", "compas_rv2.install", "--rhino_version", rhino_version])
+        cmd(abs_path+"/env/python.exe", ["-m", "compas_rv2.install", "--version", rhino_version])
     });
 
 
